@@ -71,14 +71,14 @@ const LoginPage = () => {
           <Title>Smart Finance</Title>
         </TitleWrap>
         <FormContainer>
-          <SubTitle>You can log in with your Google Account:</SubTitle>
-          <GoogleLoginLink href="https://kapusta-backend.goit.global/auth/google">
-            <FcGoogle />
-            Google
-          </GoogleLoginLink>
-          <SubTitle>
-            Or log in using an email and password, after registering:
-          </SubTitle>
+//           <SubTitle>You can log in with your Google Account:</SubTitle>
+//           <GoogleLoginLink href="https://kapusta-backend.goit.global/auth/google">
+//             <FcGoogle />
+//             Google
+//           </GoogleLoginLink>
+//           <SubTitle>
+//             Or log in using an email and password, after registering:
+//           </SubTitle>
           <Form onSubmit={handleSubmit}>
             <Label htmlFor="logInEmail">Email:</Label>
             <InputWrapper>
