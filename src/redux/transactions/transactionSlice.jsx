@@ -57,7 +57,6 @@ const transactionsSlice = createSlice({
         state.balance = action.payload.newBalance;
         state.expenses.push(action.payload.transaction);
         state.transactions.push(action.payload.transaction);
-        // state.isLoading = false;
       })
       .addCase(addExpense.rejected, handleRejected)
 

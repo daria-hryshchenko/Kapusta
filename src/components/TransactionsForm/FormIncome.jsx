@@ -94,8 +94,6 @@ export const TransactionsFormIncome = () => {
             required
           />
           <img src={calculator} alt='calculator' className={css.calculatorIcon}/>
-
-          {/* Добавить свг калькулятор*/}
         </div>
       </div>
       <div className={css.transactionsButtonsWrap}>

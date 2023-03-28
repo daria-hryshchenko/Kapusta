@@ -1,7 +1,6 @@
 import { useDispatch } from 'react-redux';
 import { useState } from 'react';
 import { logIn } from 'redux/auth/operation';
-import { FcGoogle } from 'react-icons/fc';
 
 import {
   Container,
@@ -20,16 +19,12 @@ import {
   BottomCabbages,
   InputWrapper,
   PasswordBtn,
-  GoogleLoginLink,
   PasswordIcon,
 } from 'pages/styled/RegisterPage.slyle';
 
 import { BackgroundLayout } from 'components/BackgroundLayout/BackgroundLayout';
 import LogoSrc from './../images/imgReports/title_kapusta.png';
 import TwoCabbages from './../images/cabbage/cabagesTwo.svg';
-
-// import { ToastContainer, toast } from 'react-toastify';
-// import 'react-toastify/dist/ReactToastify.css';
 
 import EyeOpened from './../images/eye/eye-open.svg';
 import EyeClosed from './../images/eye/eye-blocked.svg';
@@ -49,16 +44,7 @@ const LoginPage = () => {
       email: email.value,
       password: password.value,
     };
-    dispatch(logIn(user)).then(data => {
-      // console.log(data);
-      // if (data?.error?.message === 'Rejected') {
-      //   toast('Data entered incorrectly. Try again');
-      //   return;
-      // }
-      // if (data.requestStatus === 'fulfilled') {
-      //   return;
-      // }
-    });
+    dispatch(logIn(user)).then(data => {});
     event.target.reset();
   };
 
@@ -71,13 +57,8 @@ const LoginPage = () => {
           <Title>Smart Finance</Title>
         </TitleWrap>
         <FormContainer>
-          <SubTitle>You can log in with your Google Account:</SubTitle>
-          <GoogleLoginLink href="https://kapusta-backend.goit.global/auth/google">
-            <FcGoogle />
-            Google
-          </GoogleLoginLink>
           <SubTitle>
-            Or log in using an email and password, after registering:
+            Log in using an email and password, after registering:
           </SubTitle>
           <Form onSubmit={handleSubmit}>
             <Label htmlFor="logInEmail">Email:</Label>

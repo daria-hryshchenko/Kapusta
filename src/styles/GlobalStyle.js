@@ -31,22 +31,11 @@ p {
    margin: 0;
 }
 
-/* input[type="number" i] {
-    padding: 0px;
-    
-} */
 input {
   padding: 0px;
 }
 
-/* input:hover,
-input:focus {
-    outline: none;
-} */
 
-/* input[type="text" i] {
-    padding: 0px;
-} */
 
 ul,
 ol {

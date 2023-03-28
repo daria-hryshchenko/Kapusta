@@ -8,7 +8,6 @@ import { useEffect } from 'react';
 import { useDispatch } from 'react-redux';
 import { refreshToken } from 'redux/auth/operation';
 import { Navbar } from './Navbar/Navbar';
-// import AnimatCursor from 'components/AnimatedCursor/AnimatedCursor';
 import { Loader } from 'components/Loader/Loader';
 
 const HomePage = lazy(() => import('pages/HomePage/HomePage'));
@@ -26,7 +25,6 @@ export const App = () => {
   return (
     <div>
       <Suspense fallback={<Loader />}>
-        {/* <AnimatCursor /> */}
         <Navbar />
         <Routes>
           <Route path="/" element={<HomePage />}>

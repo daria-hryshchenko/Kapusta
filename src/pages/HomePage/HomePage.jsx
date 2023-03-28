@@ -1,6 +1,5 @@
 import { Outlet, useLocation } from 'react-router-dom';
 import { TabPanel } from 'react-tabs';
-// import 'react-tabs/style/react-tabs.css';
 import { ReactComponent as ReportsIcon } from '../../images/reports-icon.svg';
 import { useAuth } from './../../hooks/useAuth';
 import { useNavigate } from 'react-router-dom';
@@ -16,8 +15,6 @@ import {
   TabStyled,
   NavLinkStyled,
   TabWrapper,
-  // OutletStyled,
-  // BlockHeading
 } from './HomePage.styled';
 
 export const HomePage = () => {
@@ -25,7 +22,6 @@ export const HomePage = () => {
   const index = location.pathname === '/income' ? 1 : 0;
   const { isLoggedIn } = useAuth();
   const path = location.pathname === '/' ? '/income' : location.pathname;
-  // console.log(index);
   const navigate = useNavigate();
 
   useEffect(() => {

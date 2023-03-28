@@ -53,7 +53,6 @@ export const TabsStyled = styled(Tabs)`
 `;
 
 export const TabStyled = styled(Tab)`
-  /* background-color: #f7741d; */
   background: #f5f6fb;
   width: 50%;
   height: 53px;
@@ -76,7 +75,6 @@ export const TabStyled = styled(Tab)`
   .active {
     color: #ff751d;
     @media screen and (min-width: 320px) and (max-width: 767px) {
-      /* background: rgba(245, 246, 251, 1); */
       color: #ffff;
     }
   }

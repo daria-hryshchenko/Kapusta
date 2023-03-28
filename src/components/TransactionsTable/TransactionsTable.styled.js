@@ -55,7 +55,6 @@ export const TransactionTable = styled.table`
     @media screen and (min-width: 768px) {
       min-height: 344px;
       max-height: 480px;
-      /* width: 746px; */
       height: auto;
     }
     @media screen and (min-width: 1280px) {
@@ -75,7 +74,6 @@ export const TransactionTable = styled.table`
     tr {
       justify-content: center;
       display: flex;
-      /* gap: 8px; */
       &:not(:last-child) {
         border-bottom: 2px solid #f5f6fb;
       }
@@ -83,7 +81,6 @@ export const TransactionTable = styled.table`
         position: relative;
         align-items: center;
         justify-content: center;
-        /* padding-left: 24px; */
         flex: 1 0 calc(100% / 5);
         overflow-x: hidden;
         display: flex;
@@ -91,10 +88,6 @@ export const TransactionTable = styled.table`
         overflow: hidden;
         font-size: 12px;
         text-align: center;
-
-        @media (min-width: 1280px) {
-          /* padding-left: 36px; */
-        }
 
         span {
           display: flex;

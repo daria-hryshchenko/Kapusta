@@ -38,14 +38,13 @@ export const ButtonConfirm = styled.button`
       color: white;
       background-color: #ff751d;
       border-color: #ff751d;
-  }
+    }
   }
 `;
 export const ButtonBackText = styled.span`
   color: rgba(82, 85, 95, 0.7);
   font-size: 12px;
   font-weight: 500;
-  /* @media screen and (min-width: 768px) { */
   @media screen and (min-width: 320px) {
     display: none;
   }
@@ -67,9 +66,6 @@ export const PreBox = styled.div`
 `;
 export const Box = styled.div`
   @media screen and (min-width: 768px) {
-    /* display: flex;
-    justify-content: space-between;
-    align-items: center; */
     width: calc((100% / 3) * 2);
   }
 `;
@@ -83,7 +79,6 @@ export const BalanceBox = styled.div`
   @media screen and (min-width: 768px) {
     flex-direction: row;
     align-items: center;
-    ${'' /* justify-content: center; */}
     gap: 20px;
   }
 `;
@@ -94,7 +89,6 @@ export const BalanceText = styled.p`
   line-height: 1.16;
   align-items: center;
   text-align: center;
-  ${'' /* letter-spacing: 0.02em; */}
   margin-bottom: 8px;
   color: rgba(82, 85, 95, 0.7);
   padding-top: 32px;
@@ -116,9 +110,8 @@ export const BalanceAmount = styled.p`
   font-size: 12px;
   line-height: 1.16;
   text-align: center;
-  ${'' /* letter-spacing: 0.02em; */}
   text-transform: uppercase;
-  background-color: #F2F5FC;
+  background-color: #f2f5fc;
   color: #000000;
   width: 183px;
   margin-bottom: 32px;

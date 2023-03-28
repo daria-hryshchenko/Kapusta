@@ -12,13 +12,6 @@ import {
 
 const Balance = () => {
   const transactionBalance = useSelector(selectBalance);
-  // const incomeTotal = useSelector(selectIncomeTotal);
-  // const isUserOperations = useSelector(selectIncomeTotal).transactions.length;
-
-  // const isLoading = useSelector(selectIsLoading);
-
-  // console.log(typeof transactionBalance);
-
   const location = useLocation();
   const dispatch = useDispatch();
   const [modalOpen, setModalOpen] = useState(false);
@@ -64,19 +57,11 @@ const Balance = () => {
             required
           />
 
-          <button
-            type="submit"
-            className="btn"
-            onClick={handleModalOpen}
-            // disabled={incomeTotal === 0}
-          >
+          <button type="submit" className="btn" onClick={handleModalOpen}>
             Confirm
           </button>
         </BtnsWrapper>
       </StyledBalanceForm>
-
-      {/* {transactionBalance === 0 && <BalanceModal />} */}
-      {/* {!incomeTotal && <BalanceModal />} */}
 
       {location.pathname === '/expenses' && <BalanceModal />}
 

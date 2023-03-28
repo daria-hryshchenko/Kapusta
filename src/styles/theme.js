@@ -22,7 +22,6 @@ const theme = {
     categoryIcon: '#071F41',
   },
 
-  //   space: [0, 4, 12, 16, 56],
 
   fonts: {
     body: 'Roboto, sans-serif',

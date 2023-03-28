@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-// import { HandySvg } from '../../../images/imgReports/handy-svg';
 
 export const List = styled.ul`
   display: flex;
@@ -25,7 +24,6 @@ export const Item = styled.li`
   margin: 0%;
   padding: 20px 0;
   gap: 5px;
-  // border-bottom: 1px solid black;
 
   &.active {
     fill: #ff751d;
@@ -81,10 +79,3 @@ export const ItemIncome = styled.li`
 export const ItemSvg = styled.svg`
   position: relative;
 `;
-
-// export const BgcSvg = styled(HandySvg)`
-//   position: absolute;
-//   top: 100px;
-//   width: 59px;
-//   height: 46px;
-// `;

@@ -57,7 +57,6 @@ export const ReportsNav = () => {
             </>
           )}
         </BalanceBox>
-        {/* <ReportsSlider /> */}
       </Box>
     </PreBox>
   );

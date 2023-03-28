@@ -3,7 +3,6 @@ import { NavLink } from 'react-router-dom';
 
 export const PasswordIcon = styled.img`
   display: block;
-  /* width: 100%; */
 `;
 export const Container = styled.div`
   position: relative;
@@ -100,24 +99,7 @@ export const FormContainer = styled.div`
   }
 `;
 
-export const Wrap = styled.div`
-  /* align-items: center;
-
-  width: 280px;
-  padding: 40px 20px;
-
-  background-color: #fff;
-  box-shadow: 5px 10px 20px rgba(170, 178, 197, 0.4);
-  border-radius: 30px;
-
-  @media screen and (min-width: 768px) {
-    width: 426px;
-    padding: 56px 84px;
-  }
-  @media screen and (min-width: 1280px) {
-    margin-right: 91px;
-  } */
-`;
+export const Wrap = styled.div``;
 
 export const SubTitle = styled.h3`
   display: block;
@@ -166,7 +148,6 @@ export const Input = styled.input`
   width: 100%;
   font-size: 14px;
   font-family: 'Roboto';
-  /* placeholder: #a6abb9; */
   background-color: #f6f7fb;
   border-radius: 30px;
   border: none;
@@ -294,47 +275,4 @@ export const BottomCabbages = styled.img`
   width: 183px;
   margin-bottom: 50px;
   align-self: flex-start;
-`;
-
-export const GoogleLoginLink = styled.a`
-  box-sizing: border-box;
-  text-decoration: none;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  min-width: 116px;
-  min-height: 44px;
-  font-family: inherit;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 12px;
-  line-height: 1.17;
-  letter-spacing: 0.02em;
-  transition: 350ms ease-in-out;
-  color: #000000;
-  background-color: #f5f6fb;
-  padding: 10px 16px;
-  border-radius: 26px;
-  border: none;
-  filter: drop-shadow(1px 3px 5px rgba(82, 85, 95, 0.15));
-  cursor: pointer;
-  &:hover,
-  &:focus {
-    color: white;
-    background-color: #ff751d;
-    filter: drop-shadow(1px 3px 5px rgba(255, 107, 8, 0.35));
-  }
-  &:active {
-    background-color: #ff751d;
-    color: white;
-    filter: drop-shadow(1px 3px 5px rgba(255, 107, 8, 0.35));
-  }
-  & > svg {
-    margin-right: 10px;
-    width: 18px;
-    height: 18px;
-  }
-  @media screen and (min-width: 768px) {
-    min-width: 122px;
-  }
 `;
