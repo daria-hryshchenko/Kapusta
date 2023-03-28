@@ -8,4 +8,4 @@ This is a great money counting app 💕
 
 ➡️ Implemented Authentication
 
-![](https://media.giphy.com/media/cmfOFbTDAQYGNZFOj9/giphy.gif)
+![](https://media.giphy.com/media/BbxS9LtDswYYu7K2f1/giphy.gif)
