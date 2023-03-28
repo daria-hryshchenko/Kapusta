@@ -93,7 +93,11 @@ export const TransactionsFormIncome = () => {
             placeholder="00.00"
             required
           />
-          <img src={calculator} alt='calculator' className={css.calculatorIcon}/>
+          <img
+            src={calculator}
+            alt="calculator"
+            className={css.calculatorIcon}
+          />
         </div>
       </div>
       <div className={css.transactionsButtonsWrap}>
